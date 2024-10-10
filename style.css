@@ -4,7 +4,15 @@ video {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+iframe {
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
   
+
 img {
     align-self: center;
     margin: 5px;
