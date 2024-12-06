@@ -18,43 +18,88 @@
 <div class="row">
   <div class="column">
     <h2>Description</h2>
-    <p>This project is cute interactive bear nightlight representing Po from Kung Fu Panda (Blue), 
-      and Winnie the Poo (Yellow).When you mention Po's favourite food, dumplings, Po will blink 
-      3 times to indicate approval and agreement. Likewise, Winnie will blink when you talk about 
-      honey. Due to a delay in speech processing time, there may be a 3-5 second delay between when
-      the word is said and the responding blinks.
+    <p>This corset is designed to be a visual representation of the key emotional contexts of
+        a person's conversations throughout the day. I handsewed the corset and soldered all connections. As you or someone around you speaks, the 
+        speech is recorded and sent to a sentiment analyzer from hugging face to determine the
+        emotion in the speech snippet. This sentiment analyzer had over 50 recognizable emotions,
+        which I mapped down to 7, shown below. The lights are then assigned to a ratio of the recognized
+        emotions, which are evenly dispersed throughout the garment. For example, if 'joy'(yellow) 
+        was recognized twice and 'anger'(red) was recognized once, then 66% of the lights would be
+        yellow and 33% would be red. Neutral statements are ignored. The key is as follows:
+        <br><br>
+        Joy: Golden
+        <br>
+        Anger: Red
+        <br>
+        Sadness: DeepSkyBlue
+        <br>
+        Love: Hot Pink
+        <br>
+        Fun: Green
+        <br>
+        Unease: DarkOliveGreen
+        <br>
+        Reflection: Violet
     </p>
   </div>
   <div class="column">
     <h2>Video</h2>
-    <video width="400" controls>
-      <source src="A0/BlinkingBears.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <iframe width="500" height="275"
+        src="https://www.youtube.com/embed/H13foKRQM9c">
+    </iframe>
   </div>
 </div>
 
+<h2>Images</h2>
 <div class="row">
   <div class="column">
     <div class="row">
       <div class="column">
-        <h2>Images</h2>
-        <p>Final Prototype!</p>
-        <img src="A0/IMG_2047.jpg" width="300">
+        <p>Sewing the corset:</p>
+        <div class="row" style="display: flex; justify-content: center;">
+          <img src="A3/sewing.jpg" width="250">
+        </div>
       </div>
       <div class="column">
-        <h2>Circuit Schematic</h2>
-        <img style="margin-top: 50px;" src="A0/circuit.png" width="600">
+        <p>Adding boning! (I used zip ties)</p>
+        <div class="row" style="display: flex; justify-content: center;">
+          <img src="A3/add_boning.jpg" width="250">
+          <img src="A3/boning2.jpg" width="250">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <p>I had to solder each light strip together. There were 7 dual ended light strips with 3 connections (power, data line, ground). So it was a lot of effort! After soldering each connection, I secured it with heat shrink.
+          </p>
+        <div class="row" style="display: flex; justify-content: center;">
+          <img src="A3/soldering3.jpg" width="200">
+          <img src="A3/soldering2.jpg" width="200">
+          <img src="A3/soldering1.jpg" width="200">
+        </div>
+
+      </div>
+      <div class="column">
+        <p>The final product! Unfortunately my grommeting tool didn't make it to the door in time to make this fully wearable, but I'll add that in later!</p>
+          <div class="row" style="display: flex; justify-content: center;">
+            <img src="A3/finished1.png" width="200">
+            <img src="A3/finished2.png" width="200">
+          </div>
       </div>
     </div>
   </div>
 </div>
 
+<h2 class="sources">Circuit Schematic</h2>
+<img src="A3/corsetCircuit.png" width="700">
+
 <h2 class="sources">Source Code:</h2>
-<A class="link" HREF="https://github.com/shanna1408/BlinkingBears.git">https://github.com/shanna1408/BlinkingBears.git</A>
+<A class="link" HREF="https://github.com/shanna1408/ConversationCorset">https://github.com/shanna1408/ConversationCorset</A>
 
 <h2 class="sources">Reference Materials: </h2>
 <A class="link" HREF="https://www.youtube.com/watch?v=zj3sa5HV2Bg&t=551s&ab_channel=RachelDeBarros">https://www.youtube.com/watch?v=zj3sa5HV2Bg&t=551s&ab_channel=RachelDeBarros</A>
 <br>
 <A class="link" HREF="https://www.youtube.com/watch?v=tD7AQONk-0Q&ab_channel=recreateful">https://www.youtube.com/watch?v=tD7AQONk-0Q&ab_channel=recreateful</A>
+<br>
+<A class="link" HREF="https://huggingface.co/borisn70/bert-43-multilabel-emotion-detection">https://huggingface.co/borisn70/bert-43-multilabel-emotion-detection</A>
 </html>
