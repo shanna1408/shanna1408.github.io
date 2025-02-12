@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Robot Jacket</title>
+</head>
+
+<div class="link">
+  <A HREF="index.html">Back to Main Page </A>
+</div>
+
+<div class="title">
+  <h1>Robot Jacket</h1>
+  <h2>By Shanna Hollingworth</h2>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Description</h2>
+    <p >Throughout history, since the first humans, we have moved expressively in time to music. But what if the music moved to us? And there, 
+      the Robot Jacket was born. Admittedly, the sound emitted by the Robot Jacket could only be called music in the loosest sense 
+      of the word. However, the robotic sounding output as opposed to more traditional compositional melodies allow for a sound 
+      output that sounds relatively harmonious no matter what the movement is. To pick more traditional melodic sounds to more directly 
+      emulate an 'instrument' would mean that only a practiced performer could make 'good' sound, as the noises would be likely to 
+      sound bad together if one were to just move and dance randomly. This would defeat the purpose; the idea is to move freely and 
+      joyously let the sound match you, without needing to worry about skill (Be that dancing skill or music composition skill).
+    </p>
+    <p>
+      Robot Jacket uses gyroscope readings from 3 separate accelerometers, one on each arm and one mounted to the back.
+      I take the magnitude of each gyroscope reading using the x, y, and z values from each gyroscope and map each to a 
+      different parameter to create a Frequency Modulation Synthesizer. The right arm maps to the carrier frequency, the 
+      left arm maps to the modulator frequency, and the one on the back maps to modulation depth.
+    </p>
+  </div>
+  <div class="column">
+    <h2>Video</h2>
+    <iframe width="500" height="275"
+      src="https://www.youtube.com/embed/KPsLruqSmtI">
+    </iframe>
+  </div>
+</div>
+
+<h2>Images</h2>
+<div class="row">
+  <div class="column">
+    <div class="row">
+      <div class="column">
+        <p>Initial testing phase of accelerometer functionality and wiring options</p>
+        <img src="A1/TestingPhase.jpg" width="250">
+      </div>
+      <div class="column">
+        <p>The initial wired prototype!</p>
+        <img src="A1/InitialPrototype.jpg" width="250">
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <p>The final wired set up, ready to go in the jacket</p>
+        <img src="A1/BetterPrototype.jpg" width="400">
+
+      </div>
+      <div class="column">
+        <p>Final prototype, seen both as intended and inside out!</p>
+        <img src="A1/FinalOutside.jpg" width="300">\
+        <img src="A1/FinalInside.jpg" width="300">
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="sources">Circuit Schematic</h2>
+<img src="A1/RobotCircuit.jpg" width="400">
+
+<h2 class="sources">Source Code:</h2>
+<A class="link" HREF="https://github.com/shanna1408/RobotJacket">https://github.com/shanna1408/RobotJacket</A>
+
+<h2 class="sources">Reference Materials: </h2>
+<A class="link" HREF="https://forums.adafruit.com/viewtopic.php?t=171231">https://forums.adafruit.com/viewtopic.php?t=171231</A>
+<br>
+<A class="link" HREF="https://www.youtube.com/watch?v=ftDtsSHU2UM&ab_channel=SoundSimulator">https://www.youtube.com/watch?v=ftDtsSHU2UM&ab_channel=SoundSimulator</A>
+<br>
+<A class="link" HREF="https://docs.cycling74.com/max8/tutorials/06_synthesischapter04">https://docs.cycling74.com/max8/tutorials/06_synthesischapter04</A>
+</html>

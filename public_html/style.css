@@ -1,0 +1,90 @@
+video {
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+iframe {
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+  
+
+img {
+    align-self: center;
+    margin: 5px;
+}
+
+/* Subheading */
+h1 {
+  color: Black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: Black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+    color: Black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+div {
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.link {
+    margin: 10px;
+    padding: 0pc;
+    font-size: 20px
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    margin: 0px;
+    padding: 20px;
+    align-items: center;
+}
+
+.sources {
+  color: Black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px;
+  margin-top: 20px;
+}
