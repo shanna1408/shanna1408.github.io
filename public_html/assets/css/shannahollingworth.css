@@ -11162,6 +11162,11 @@ p {
   color: #F85C70;
 }
 
+.portfolio-item img {
+  display: block;
+  margin: auto;
+}
+
 .portfolio .filters {
   border-bottom: 2px solid #dee2e6;
   border-radius: 0;
@@ -11415,6 +11420,23 @@ pre .code {
 
 .navbar .brand {
   text-align: center;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly */
+  width: 100%; /* Ensure full width */
+}
+
+.navbar-nav {
+  display: flex;
+  flex-grow: 1; /* Allow items to expand */
+  justify-content: space-evenly; /* Evenly distribute items */
+}
+
+.navbar-nav.brand {
+  flex-grow: 0; /* Prevent brand section from stretching */
+  justify-content: center; /* Center brand logo */
 }
 
 .navbar .brand .brand-img {
