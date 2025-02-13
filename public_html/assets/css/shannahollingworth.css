@@ -489,6 +489,8 @@ mark,
 .img-fluid {
   max-width: auto;
   max-height: 400px;
+  display: block;
+  margin: auto;
 }
 
 .img-thumbnail {
@@ -11160,11 +11162,6 @@ p {
 
 .price-card.price-card-requried .num {
   color: #F85C70;
-}
-
-.portfolio-item img {
-  display: block;
-  margin: auto;
 }
 
 .portfolio .filters {
