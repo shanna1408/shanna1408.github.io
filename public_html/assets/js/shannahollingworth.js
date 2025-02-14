@@ -57,7 +57,7 @@ $(window).on("load", function() {
 
 document.addEventListener("DOMContentLoaded", function () {
     // document.getElementById("downloadResume").addEventListener("click", function () {
-    document.querySelectorAll("#downloadResume1, #downloadResume2")
+    document.querySelectorAll("#downloadResume, #downloadResume1")
       .forEach(button => button.addEventListener("click", function () {
         // Path to the file you want to download
         const fileUrl = "public_html/assets/files/ShannaHollingworth_Resume.pdf"; // Change this to your actual file path
