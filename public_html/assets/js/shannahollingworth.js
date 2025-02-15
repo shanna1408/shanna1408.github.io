@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll("#downloadResume, #downloadResume1")
       .forEach(button => button.addEventListener("click", function () {
         // Path to the file you want to download
-        const fileUrl = "https://shanna1408.github.io/public_html/assets/files/ShannaHollingworth_Resume.pdf"; // Change this to your actual file path
+        const fileUrl = "https://shanna1408.github.io/public_html/assets/files/Software_Engineer_Resume.pdf"; // Change this to your actual file path
         const fileName = "ShannaHollingworth.pdf"; // Name of the file when downloaded
         // Create a temporary anchor element
         const a = document.createElement("a");
